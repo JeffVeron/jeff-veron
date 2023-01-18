@@ -8,7 +8,7 @@ import portfolio4 from "./Fakeimages4.jpeg";
 import { Routes, Route, /*  Outlet, */ Link } from "react-router-dom";
 //import { Analytics } from '@vercel/analytics/react';
 // import { inject } from '@vercel/analytics';
-
+import { AnalyticsWrapper } from './analytics';
 
 
 
@@ -201,6 +201,7 @@ function NoMatch() {
 function Home() {
   return (
     <div className="home">
+     <AnalyticsWrapper />
       <div className="logoAndHeader">
         <Logo />
         <Header />
