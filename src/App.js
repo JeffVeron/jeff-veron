@@ -6,6 +6,10 @@ import portfolio2 from "./fakeImage2.jpeg";
 import portfolio3 from "./FakeImages.jpeg";
 import portfolio4 from "./Fakeimages4.jpeg";
 import { Routes, Route, /*  Outlet, */ Link } from "react-router-dom";
+import { inject } from '@vercel/analytics';
+
+
+
 
 function Logo() {
   /*   const logo = logo */
@@ -210,7 +214,12 @@ function App() {
   return (
     <div className="App">
       {/* introducing routes  */}
+  
 
+  {/* //vercel analytics tracking  */}
+     inject();
+
+     
       <Routes>
         <Route>
        {/*  <Route path="/" element={<App />}> */}
