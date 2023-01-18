@@ -6,7 +6,7 @@ import portfolio2 from "./fakeImage2.jpeg";
 import portfolio3 from "./FakeImages.jpeg";
 import portfolio4 from "./Fakeimages4.jpeg";
 import { Routes, Route, /*  Outlet, */ Link } from "react-router-dom";
-import { inject } from '@vercel/analytics';
+// import { inject } from '@vercel/analytics';
 
 
 
@@ -20,7 +20,7 @@ function Logo() {
   );
 }
 
-inject();
+//inject();
 
 function About() {
   return <div className="aboutDiv">
