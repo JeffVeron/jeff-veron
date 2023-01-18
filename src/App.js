@@ -6,7 +6,7 @@ import portfolio2 from "./fakeImage2.jpeg";
 import portfolio3 from "./FakeImages.jpeg";
 import portfolio4 from "./Fakeimages4.jpeg";
 import { Routes, Route, /*  Outlet, */ Link } from "react-router-dom";
-import { Analytics } from '@vercel/analytics/react';
+//import { Analytics } from '@vercel/analytics/react';
 // import { inject } from '@vercel/analytics';
 
 
@@ -221,7 +221,7 @@ function App() {
 
   {/* //vercel analytics tracking  */}
     {/*  inject(); */}
- <Analytics/>
+ 
 
       <Routes>
         <Route>
