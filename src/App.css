@@ -21,6 +21,7 @@
 
 .appHeader{
   width: 80%;
+  height: 50%;
   display: flex;
   flex-direction: row;
   gap: 10%;
@@ -32,6 +33,12 @@
   justify-content: center;
   justify-items: center;
   font-size: 30px;
+  margin-top: 20px;
+  /* border: thick double #32a1ce; */
+  border-radius: 87px;
+  background: linear-gradient(315deg, #dde4e6, #ffffff);
+  box-shadow:  -8px -8px 16px #c9cfd1,
+               8px 8px 16px #ffffff;
 }
 
  .logoDiv{
@@ -39,6 +46,7 @@
   width: 70px;
   margin:0;
   padding: 0;
+  margin-bottom: 20px;
  }
 
  .logoImage{
@@ -73,7 +81,10 @@
   height: 400px;
   width:80%;
   background-color: aqua;
- 
+  border-radius: 0px;
+background: #4d595c;
+box-shadow:  20px 20px 60px #414c4e,
+             -20px -20px 60px #59666a;
   /* font-weight: 300; */
 }
 
@@ -117,6 +128,13 @@
   justify-content: center;
   align-items: center;
   justify-self: center;
+  width: 500px;
+  height: 60px;
+/*   border-radius: 0px; */
+border-radius: 87px;
+background: linear-gradient(145deg, #dde4e6, #ffffff);
+box-shadow:  14px 14px 28px #9fa4a6,
+             -14px -14px 28px #ffffff;
 
 
 }
