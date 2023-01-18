@@ -8,7 +8,7 @@ import portfolio4 from "./Fakeimages4.jpeg";
 import { Routes, Route, /*  Outlet, */ Link } from "react-router-dom";
 import { inject } from '@vercel/analytics';
 
-
+inject();
 
 
 function Logo() {
@@ -217,9 +217,9 @@ function App() {
   
 
   {/* //vercel analytics tracking  */}
-     inject();
+    {/*  inject(); */}
 
-     
+
       <Routes>
         <Route>
        {/*  <Route path="/" element={<App />}> */}
