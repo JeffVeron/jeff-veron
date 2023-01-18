@@ -32,7 +32,10 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
-  font-size: 30px;
+  font-size: 150%;
+  font-weight: bold;
+  text-decoration:underline;
+  text-decoration-line: none;
   margin-top: 20px;
   /* border: thick double #32a1ce; */
   border-radius: 87px;
