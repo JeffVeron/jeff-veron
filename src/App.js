@@ -8,7 +8,7 @@ import portfolio4 from "./Fakeimages4.jpeg";
 import { Routes, Route, /*  Outlet, */ Link } from "react-router-dom";
 import { inject } from '@vercel/analytics';
 
-inject();
+
 
 
 function Logo() {
@@ -19,6 +19,8 @@ function Logo() {
     </div>
   );
 }
+
+inject();
 
 function About() {
   return <div className="aboutDiv">
