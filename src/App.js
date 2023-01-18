@@ -31,7 +31,7 @@ function About() {
 function Contact() {
   return <div className="contactDiv">
     
-    Contact
+    <h1>Contact Me</h1>
     <p>connect with me on.....</p>
       <div>
         <p className="email">EMAIL : 57jeff.veron@gmail.com</p>
@@ -98,9 +98,9 @@ function Header() {
      {/*  <About />
       <Contact />
       <Projects /> */}
-      <Link to="about">About Me</Link>
-      <Link to="contact">Contact Me</Link>
-      <Link to="projects">Projects</Link>
+      <Link to="about"  style= { {textDecoration: 'none'}} >About Me</Link>
+      <Link to="contact"style= { {textDecoration: 'none'}} >Contact Me</Link>
+      <Link to="projects" style= { {textDecoration: 'none'}}>Projects</Link>
     </div>
   );
 }
