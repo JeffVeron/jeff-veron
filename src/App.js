@@ -7,7 +7,7 @@ import portfolio3 from "./FakeImages.jpeg";
 import portfolio4 from "./Fakeimages4.jpeg";
 import { Routes, Route, /*  Outlet, */ Link } from "react-router-dom";
 /*import ReactGA from 'react-ga';*/
-import {Analytics} from "@vercel/Analytics";
+/*import {Analytics} from "@vercel/Analytics";*/
 
 /* ReactGA.initialize('G-YXDQHFWBRX');
 ReactGA.initialize("your GA measurement id"); 
@@ -218,7 +218,7 @@ function App() {
     <div className="App">
       {/* introducing routes  */}
   
-<Analytics/>
+{/*<Analytics/> */}
   
    
 
