@@ -9,6 +9,7 @@ import { Routes, Route, /*  Outlet, */ Link } from "react-router-dom";
 import ReactGA from 'react-ga';
 
 ReactGA.initialize('G-YXDQHFWBRX');
+/* ReactGA.initialize("your GA measurement id"); */
 ReactGA.pageview(window.location.pathname + window.location.search);
  
 
