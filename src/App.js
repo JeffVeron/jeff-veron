@@ -6,12 +6,12 @@ import portfolio2 from "./fakeImage2.jpeg";
 import portfolio3 from "./FakeImages.jpeg";
 import portfolio4 from "./Fakeimages4.jpeg";
 import { Routes, Route, /*  Outlet, */ Link } from "react-router-dom";
-import ReactGA from 'react-ga';
+/*import ReactGA from 'react-ga';*/
 import Analytics from "@vercel/analytics";
 
-ReactGA.initialize('G-YXDQHFWBRX');
-/* ReactGA.initialize("your GA measurement id"); */
-ReactGA.pageview(window.location.pathname + window.location.search);
+/* ReactGA.initialize('G-YXDQHFWBRX');
+ReactGA.initialize("your GA measurement id"); 
+ReactGA.pageview(window.location.pathname + window.location.search);  */
  
 
 function Logo() {
