@@ -1,0 +1,358 @@
+.home {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+   gap: 10%; 
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/back4.jpg');
+  width: '90%';
+  height: '100%';
+  min-height: 700px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;  
+  border-radius: 10px
+}
+
+.about-container{
+  height: 900;
+  width: 100%;
+  background-image: url('./assets/back4.jpg');
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.about-Paragragh{
+  color: white ;
+  font-weight: bolder;
+  font-size: large;
+  font-style: oblique;
+  font-variant: small-caps;
+  height: 50%;
+  width: 60%; 
+  border-left: 3px dotted white;
+  border-right: 3px dotted white ;
+
+}
+
+.hello{
+  color :red;
+  font-size: 55px;
+  font-weight: bolder;
+  margin-bottom: -10%;
+  display: flex;
+  align-self: flex-start;
+}
+
+.name{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: -50%;
+}
+
+.luminescent-div {
+  margin-top: 200px;
+  width: 70%;
+  height: 90%;
+  border: 5px solid white;
+  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white; /* Luminescent effect */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.logoAndHeader{
+  height:  20%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+.appHeader{
+  color: white;
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  margin: 20px; 
+  margin-right: 20px;
+  margin-left: 20px; 
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 120%;
+  font-weight: bold;
+  text-decoration-line: none;
+  margin-top: 20px;
+  border-bottom: 3px dotted white ;
+
+  /* border: thick double #32a1ce; */
+/*   border-radius: 87px;
+  background: linear-gradient(315deg, #dde4e6, #ffffff);
+  box-shadow:  -8px -8px 16px #c9cfd1,
+               8px 8px 16px #ffffff; */
+
+
+}
+
+ .logoDiv{
+  height: 50px;
+  width: 70px;
+  margin:0;
+  padding: 0;
+  margin-bottom: 70px;
+  margin-top: 50px;
+ }
+
+ .logoImage{
+  height: 80px;
+  width:80px ;
+  border-radius : 10px;
+  align-self: flex-start;
+  margin: 0%;
+ }
+
+ .aboutDiv{
+ /* height: 50px;*/
+/*   width: 70px; 
+  margin-left: 10px; */
+  margin-top: -30%;
+  background-color: red;
+ }
+ 
+ .contactDiv{
+  /*height: 50px;*/
+  width: 70px;
+  margin: 10px;
+ }
+
+ .contact-me{
+  color: white;
+  font-weight: bolder;
+  font-size: 2.5rem ;
+  font-variant: small-caps;
+
+ }
+
+ .connect-me{
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem ;
+ }
+
+ .mobile{
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem ;
+ }
+
+ .projectsDiv{
+  /* height: 50px;*/
+  width: 70px; 
+  margin: 0;
+ }
+ 
+.porfolioContainer{
+  display: flex;
+  gap: 10%;
+  height: 400px;
+  width:20%;
+  background-color: aqua;
+  border-radius: 0px;
+background: #4d595c;
+box-shadow:  20px 20px 60px #414c4e,
+             -20px -20px 60px #59666a;
+  /* font-weight: 300; */
+}
+
+ 
+
+.game-description{
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #c9cfd1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 2px solid white ;
+  border-bottom: 5px double white;
+  background-color: rgba(75, 69, 69, 0.8);
+}
+
+.background{
+  background-image: url('./assets/back4.jpg');
+  width: '80%';
+  height: '80%';
+}
+
+
+.bodyDiv{
+/*   height: auto; */
+  width: 70%;
+  /* margin-left: 10%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  gap: 10%;
+  
+}
+
+.bodyTopic{
+  color: #6290C8;
+  font-weight: bold;
+  font-size: 1.5rem ;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  width: 60%;
+  height: auto;
+  min-height: 50%;
+  
+/*   border-radius: 0px; */
+/* border-radius: 87px;
+background: linear-gradient(145deg, #dde4e6, #ffffff);
+box-shadow:  14px 14px 28px #9fa4a6,
+             -14px -14px 28px #ffffff; */
+}
+
+.about-full-pager{
+  height: 600px;
+  width: 100%;
+  background-color: red;
+}
+
+.topic-div{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  border:10px solid white 
+}
+
+.intro-paragraph{
+  font-size : 1.2rem;
+  font-style: oblique;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-items: center;
+  justify-self: center;
+  width: 90%;
+  color: #c9cfd1;
+  background-color: rgba(15, 14, 14, 0.8);
+}
+
+
+
+.email{
+  color: rgb(116, 116, 238);
+  font-weight: 700;
+  font-size: large;
+}
+
+.aboutDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-items: center;
+  justify-self: center;
+  width: 100%;
+  height: auto;
+}
+
+.project-header{
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-variant: small-caps;
+  border-bottom: 3px dotted white ;
+}
+
+.project-text{
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.project-link-text{
+  color: white;
+  font-size: large;
+ 
+}
+
+.project-image-group{
+  margin-top: 30px;
+}
+
+.contactDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-items: center;
+  justify-self: center;
+  width: 100%;
+  height: auto;
+}
+
+.projectsDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-items: center;
+  justify-self: center;
+  width: 60%;
+  height: auto;
+}
+
+.text{
+   color: #c9cfd1;
+}
+.image{
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.carousel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  width:100%;
+  max-width: 600px;
+  margin: auto;
+
+}
+
+.arrow-button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0 0 0 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 18px;
+}
+.game-header{
+  color: white;
+  font-size: 55;
+  font-weight: bold;
+}
